@@ -1,0 +1,21 @@
+.skewd {
+  background-color: rgba($color: #17191C, $alpha: 0.6);
+  position: relative;
+
+  &::before {
+    content: "";
+    transform: skew(0, 8deg);
+    background: #17191C;
+    height: 250px;
+    width: 100vw;
+    top: -100px;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+  }
+}
+
+.glass {
+  border-radius: 12px;
+  background: #26292E;
+}

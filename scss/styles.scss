@@ -1,0 +1,12 @@
+@import "settings";
+
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.muted {
+  color: $text-muted-color;
+}
+
+@import "skewd";

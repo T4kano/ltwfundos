@@ -1,0 +1,32 @@
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+.muted {
+  color: #999999;
+}
+
+.skewd {
+  background-color: #17191C;
+  position: relative;
+}
+
+.skewd::before {
+  content: "";
+  -webkit-transform: skew(0, 8deg);
+          transform: skew(0, 8deg);
+  background: #17191C;
+  height: 250px;
+  width: 100vw;
+  top: -100px;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+
+.glass {
+  border-radius: 12px;
+  background: #26292E;
+}
+/*# sourceMappingURL=styles.css.map */
