@@ -8340,26 +8340,11 @@ textarea.form-control-lg {
   }
 }
 
-.nav-tabs {
-  border-bottom: 1px solid #1F93FF;
-}
-
-.nav-tabs .nav-link.active,
-.nav-tabs .nav-item.show .nav-link {
-  color: #ffffff;
-  background-color: #26292E;
-  border-color: #1F93FF #1F93FF #26292E;
-}
-
-.nav-tabs .nav-link {
+.nav-link {
   color: #999999;
 }
 
-.nav-tabs .nav-link:hover {
-  border-color: #FF3DC8 #FF3DC8 transparent;
-}
-
-.nav-tabs .nav-link:focus {
-  border-color: #1F93FF #1F93FF transparent;
+.nav-link:hover, .nav-link:focus {
+  color: #fff;
 }
 /*# sourceMappingURL=custom.css.map */

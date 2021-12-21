@@ -1,5 +1,5 @@
 .skewd {
-  background-color: rgba($color: #17191C, $alpha: 0.6);
+  background: #17191C;
   position: relative;
 
   &::before {
@@ -13,9 +13,17 @@
     left: 0;
     z-index: -1;
   }
+
+  button {
+    font-family: $font-family-nav;
+  }
 }
 
 .glass {
+  position: relative;
+  backdrop-filter: blur(32px);
+  z-index: 2;
   border-radius: 12px;
-  background: #26292E;
+  background: linear-gradient(-45deg, #26292E, transparent);
+  box-shadow: 0 10px 32px 4px rgba($color: #121212, $alpha: 0.8);
 }
